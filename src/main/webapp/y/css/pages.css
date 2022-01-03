@@ -1,0 +1,57 @@
+
+
+/* 当前页按钮 */
+.current{
+    color: #ffffff;
+    background: #1ABC9C;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+}
+
+/* 非当前页的按钮 */
+.pageNum{
+    color: #666;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    border-radius: 3px;
+}
+
+
+
+
+
+/* 翻页的输入框 */
+.pageInput{
+    width: 50px;
+    height: 42px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #E6E6E6;
+    margin: 0 12px;
+    border-radius: 3px;
+    color: #666;
+}
+
+/* 确定翻页按钮 */
+.changePage{
+    width: 48px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #E6E6E6;
+    margin-left: 10px;
+    cursor:pointer;
+    border-radius: 3px;
+    background: #fff;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}
